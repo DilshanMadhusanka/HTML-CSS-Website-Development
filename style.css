@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   /* we can add separate margin and padding for the element  */
+    font-family:sans-serif;
+}
+
+body{
+    margin: 0 auto;
+}
+
+/* navigation */
+
+nav{
+    display: flex;
+    background-color: aqua;
+    flex-direction: row;
+    padding: 1rem 3rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #233e50;
+
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;  /* to remove the dot of the list */
+    gap: 5rem;
+    font-size: 20px;
+    color: #fff;
+    align-items: center;
+}
+
+.button{
+    border: 0;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: #65e4a3;
+}
+
+
+a{
+    text-decoration: none ; /* remove the underline of the ancor tag*/
+}
+    
+
+
+/* About */
+
+.about{
+    background-color: #0a2640;
+    color: #fff;
+    height: 600px;
+    padding: 4rem 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+
+}
+
+h1{
+    font-size: 3rem;
+}
+
+p{
+    opacity: 0.5;
+}
