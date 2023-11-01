@@ -69,3 +69,30 @@ h1{
 p{
     opacity: 0.5;
 }
+
+
+
+/* hero images */
+
+
+.grid-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    gap: 2rem;
+    position: absolute;  /* e section eka dom eken galawal gann puluwan wenam section ekak widiahta. eha meha geniyann puluwan */
+    top: 560px;
+    width: 50%;
+    justify-content: center;
+}
+
+.grid-item > :nth-child(2){
+    grid-row: span 2;
+}
+
+
+.hero-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
