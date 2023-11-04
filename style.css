@@ -163,43 +163,66 @@ button {
 
 /* our team images */
 
-.data-card{
-padding: 2rem 5rem;
-display: flex;
-flex-direction: column;
-background-color: #0a2640;
-color: #fff;
-gap: 2rem;
-margin-top: 2rem;
-}
-
-.card-container{
+.data-card {
+  padding: 2rem 5rem;
   display: flex;
   flex-direction: column;
-gap: 4rem;
-margin-top: 3rem;
-
+  background-color: #0a2640;
+  color: #fff;
+  gap: 2rem;
+  margin-top: 2rem;
 }
 
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  margin-top: 3rem;
+}
 
-.card{
+.card {
   display: flex;
   flex-direction: row;
   gap: 2rem;
   background-color: #233e50;
-  padding: 2rem ;
- width: 60%;
-border-radius: 20px;
-align-items: center;
-justify-content: center;
+  padding: 2rem;
+  width: 80%;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+}
 
-
+.card-data {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 
 
-.card-data{
+/* footer-section */
+
+footer{
   display: flex;
-  flex-direction: column;
-  gap: 2rem;
+  flex-direction: row;
+  margin: 2rem 4rem;
+  justify-content: space-between;
+}
+
+
+.footer-data-left{
+  width: 30%;
+}
+
+
+.footer-data-right{
+  display: flex;
+  flex-direction: row;
+  gap: 10rem;
+}
+
+
+.footer-para{
+  font-size: 0.8rem;
+  margin-top: 1rem;
 }
