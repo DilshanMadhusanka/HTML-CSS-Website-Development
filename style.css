@@ -49,7 +49,7 @@ a {
   background-color: #0a2640;
   color: #fff;
   height: 600px;
-  padding: 4rem 8rem;
+  padding: 6rem 8rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -73,7 +73,7 @@ p {
   grid-template-rows: 300px 300px;
   gap: 2rem;
   position: absolute; /* e section eka dom eken galawal gann puluwan wenam section ekak widiahta. eha meha geniyann puluwan */
-  top: 560px;
+  top: 500px;
   width: 50%;
   justify-content: center;
 }
@@ -90,12 +90,12 @@ p {
 
 /* our story */
 
-.ourStory {
+.our-story-1 {
   margin-top: 600px;
   padding: 0 5rem;
   display: flex;
   flex-direction: column;
-  gap:  2rem;
+  gap: 3rem;
 }
 
 .buttons {
@@ -116,17 +116,47 @@ button {
   border: 2px solid black;
 }
 
-
-
-
 /* our-numbers */
 
-.our-number{
- margin-top: 650px ;
-background-color:#0a2640 ;
-color: #fff;
-padding: 5rem 0;
-gap: 3rem;
-align-items: center;
-justify-content: space-between;
+.our-number {
+  margin-top: 30px;
+  background-color: #0a2640;
+  color: #fff;
+  padding: 5rem 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  text-align: center;
+}
+
+.data {
+  display: flex;
+  flex-direction: row;
+  gap: 25rem;
+  margin-top: 3rem;
+}
+
+.green {
+  color: #65e4a3;
+}
+
+/* our team  */
+
+.team {
+  padding: 0 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.image-section {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
 }
