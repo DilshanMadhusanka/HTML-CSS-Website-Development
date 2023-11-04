@@ -150,7 +150,7 @@ button {
   flex-direction: column;
   justify-content: center;
   gap: 3rem;
-  margin-top: 3rem;
+  margin-top: 5rem;
 }
 
 .image-section {
@@ -159,4 +159,47 @@ button {
   gap: 3rem;
   justify-content: center;
   align-items: center;
+}
+
+/* our team images */
+
+.data-card{
+padding: 2rem 5rem;
+display: flex;
+flex-direction: column;
+background-color: #0a2640;
+color: #fff;
+gap: 2rem;
+margin-top: 2rem;
+}
+
+.card-container{
+  display: flex;
+  flex-direction: column;
+gap: 4rem;
+margin-top: 3rem;
+
+}
+
+
+.card{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  background-color: #233e50;
+  padding: 2rem ;
+ width: 60%;
+border-radius: 20px;
+align-items: center;
+justify-content: center;
+
+
+}
+
+
+
+.card-data{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
